@@ -1,0 +1,1 @@
+pyinstaller -F -w -p c:\Anaconda3\Lib\site-packages\PyQt5\Qt\bin Ui_gui.py
