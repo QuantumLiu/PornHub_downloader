@@ -5,7 +5,7 @@ Created on Sat Nov 18 09:51:20 2017
 @author: Quantum Liu
 """
 import re,requests
-import argpase
+import argparse
 def get_video(videopage):
     #从播放页抓取视频详情，返回一个图片来了包括不同质量的MP4文件地址的一个字典，时长(秒)，一个包含浏览数、赞/踩比率和数量以及所属分类的字典。可单独使用。
     #Crawling detail of the video, return a tuple which has a dict of MP4 file's address of different qualities, the duration(second),a dict contains number of views, the rate and number of votes Up/Down.
